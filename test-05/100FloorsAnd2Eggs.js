@@ -24,4 +24,4 @@ function numberOfDrops(totalFloors, numberOfEggs) {
   }
 }
 
-console.log("worst number of drops:", numberOfDrops(100, 2)); // 14
+console.log("worst number of drops:", numberOfDrops(100, 2));
