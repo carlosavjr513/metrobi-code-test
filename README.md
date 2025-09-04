@@ -26,12 +26,10 @@ Here's the steps for the installation and exection of the code using test-03 as 
 
 ```
 
-Ctr + '
+Ctrl + '
 > cd test-03
 > npm i
 > npm run dev
-
-Access the link: http://localhost:5173/
 
 ```
 
