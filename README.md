@@ -12,7 +12,7 @@ Ctrl + '
 
 ```
 
-### Alternative mehtod in VS Code
+### Alternative method in VS Code
 
 As an alternative method you can install the `Code Runner` extension to execute the JavaScript files 
 the default shortcut is `Ctrl + Alt + N` the results are shown in the OUTPUT window of the VS Code Terminal
