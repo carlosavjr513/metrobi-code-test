@@ -39,11 +39,11 @@ function findDuplicates(inputArray) {
     }
 
     if (type === "object") {
-      // if (item === null) {
-      //   invalidTypes.add("null");
-      // } else {
+      if (item === null) {
+        invalidTypes.add("null");
+      } else {
         normalized.push(JSON.stringify(normalizeObject(item)));
-      // }
+      }
     } else {
       normalized.push(item);
     }
@@ -73,8 +73,8 @@ function findDuplicates(inputArray) {
   return duplicates
 }
 
-// const example1 = ["a", "b", "a", 1, 2, 1, true, false, true];
-// console.log(findDuplicates(example1));
+const example1 = ["a", "b", "a", 1, 2, 1, true, false, true];
+console.log(findDuplicates(example1));
 
 // const example2 = [{ x: 1, y: 2 }, { y: 2, x: 1 }, { z: 3 }, { z: 3 }];
 // console.log(findDuplicates(example2));
